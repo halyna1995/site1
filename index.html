@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta charset=utf-8"><!--кодування-->
+		<title>Practic task</title><!--назва сторінки-->
+		<link rel="stylesheet" type="text/css" href="style/style.css"><!--підключення файлу із стилями-->
+		<script type="text/javascript" src="js/js.js"></script><!--підключення JS файлу-->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script><!--підключення бібліотеки jquery-->
+	</head>
+	<body>
+		<div class="center">
+		<!--HEADER-->
+			<header>
+			
+			<!--menu-->
+			<nav>
+  <ul class="topmenu"">
+	<li><a href="">Home</a></li>
+    <li><a href="#products" class="active">Products<span class="fa fa-angle-down"></span></a>
+      <ul class="submenu">
+        <li><a href="">Name Surname</a></li>
+		<li><a href="">Nelson Noa Chris</a></li>
+        <li><a href="">Shoes<span class="fa fa-angle-down"></span></a>
+          <ul class="submenu">
+            <li><a href="">Name Surname</a></li>
+            <li><a href="">Nelson Noa Chris</a></li>
+            <li><a href="">Men shoes</a></li>
+			<li><a href="">Nelson Noa</a></li>
+			<li><a href="">Nelson Noa Chris</a></li>
+          </ul>
+        </li>
+        <li><a href="">Nelson Noa</a></li>
+      </ul>
+    </li>
+    
+    <li>
+		<a href="#about">About</a>
+	</li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  
+  <!--logotype-->
+	<img id="img" src="img/logo.png" alt="logo">
+	
+	<!--search form-->
+				<form action="/search/" target="_blank" class="form-search">
+					<input type="hidden" name="searchid" value="808327">
+					<input type="search" name="text" required placeholder="">
+					<input type="submit" value="&#128269;">
+				</form>
+</nav> 
+
+<!--slider-->
+<div class="slides">
+    <ul> <!-- Slides -->
+        <li><img src="img/image1.jpg" alt="image01" />
+            
+        </li>
+        <li><img src="img/image2.jpg" alt="image02" />
+            
+        </li>
+        <li><img src="img/image3.jpg" alt="image03" />
+            
+        </li>
+        
+    </ul>
+</div>
+
+</div>
+			</header>
+		</div>
+		<div class="center">
+		<!--MAIN-->
+			<h1 id="center_text">WHY <span class="color_text">CHOOSE US</span></h1>
+			<h6 id="center_text1">Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis.<br>
+			Nullam at scelerisque tellus mattis volutpat rhoncus,</h6>
+			<div id="place_size">
+				<img src="img/icon1.jpg" alt="icon1">
+				<div class="container-text">
+					<h2>YOUR TITLE</h2>
+					<p>Duis bibendum diam non erat facilaisis en ter tincidunt. Duis bibendum diam non erat facilaisis en ter tincidunt.</p>
+					<button onclick="myFunction(this)">SEE MORE</button>
+				</div>
+			</div>
+			<div id="place_size">
+				<img src="img/icon2.jpg" alt="icon2">
+				<div class="container-text">
+					<h2>YOUR TITLE</h2>
+					<p>Duis bibendum diam non erat facilaisis en ter tincidunt. Duis bibendum diam non erat facilaisis en ter tincidunt.</p>
+					<button onclick="myFunction(this)">SEE MORE</button>
+				</div>
+			</div>
+			<div id="place_size">
+				<img src="img/icon3.jpg" alt="icon3">
+				<div class="container-text">
+					<h2>YOUR TITLE</h2>
+					<p>Duis bibendum diam non erat facilaisis en ter tincidunt. Duis bibendum diam non erat facilaisis en ter tincidunt.</p>
+					<button onclick="myFunction(this)">SEE MORE</button>
+				</div>
+			</div>
+			<div id="place_size">
+				<img src="img/icon4.jpg" alt="icon4">
+				<div class="container-text">
+					<h2>YOUR TITLE</h2>
+					<p>Duis bibendum diam non erat facilaisis en ter tincidunt. Duis bibendum diam non erat facilaisis en ter tincidunt.</p>
+					<button onclick="myFunction(this)">SEE MORE</button>
+				</div>
+			</div>
+			<div id="place_size">
+				<img src="img/icon5.jpg" alt="icon5">
+				<div class="container-text">
+					<h2>YOUR TITLE</h2>
+					<p>Duis bibendum diam non erat facilaisis en ter tincidunt. Duis bibendum diam non erat facilaisis en ter tincidunt.</p>
+					<button onclick="myFunction(this)">SEE MORE</button>
+				</div>
+			</div>
+		</div>
+		<div class="center">
+		<section id="products">
+			<h1 class="style" id="center_text">OUR <span class="color_text1"> PRODUCTS </span></h1>
+			<div class="slides">
+				<ul> <!-- Slides -->
+					<li><img src="img/products.jpg" alt="image01" />            
+					</li>
+					<li><img src="img/products1.jpg" alt="image02" />            
+					</li>
+					<li><img src="img/products2.jpg" alt="image03" />            
+					</li>        
+				</ul>
+</div>
+		</section>
+		</div>
+		<div class="center">
+		<!--ABOUT US-->
+			<section id="about">
+			<h1 id="place"> <span class="color_text"> ABOUT </span> US</h1>
+			<h6 id="place" class="text">Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euism <br>
+			Nullam at scelerisque tellus mattis volutpat rhoncus,</h6>
+			<p id="place">Nullam at scelerisque tellus. Nulla feugiat iaculis ante, non tincidunt ligula <br>
+			scelerisque a. Vestibulum accumsan tincidunt odio vel finibus. Phasellus vestibulum <br>
+			lobortis ligula ut volutpat. Maecenas vitae nibh vel purus mollis semper. Nullam <br>
+			tempus feugiat mi id semper. Pellentesque ac posuere augue, vitae mollis enim. <br>
+			Etiam et ullamcorper dolor, a hendrerit quam.</p>
+			<div id="place" class="places">
+				<div>
+					<span class="place"></span>
+					PHOTOSHOP&nbsp;<span class="votes">79%</span>
+					<hr style="width: 66.25%;">
+				</div><div>
+					<span class="place"></span>
+					HTML/CSS&nbsp;<span class="votes">90%</span>
+					<hr style="width: 73.5%;">
+				</div><div>
+					<span class="place"></span>
+					JAVASCRIPT&nbsp;<span class="votes">69%</span>
+					<hr style="width: 46%;">
+				</div><div>
+					<span class="place"></span>
+					WORDPRESS&nbsp;<span class="votes">92%</span>
+					<hr style="width: 80%;">
+			</div>
+			<img id="place_image" src="img/phone.jpg" alt="phone">
+		</div>
+		</section>
+		<div class="center">
+		<section id="contact">
+		<h1 id="center_text">GET IN <span class="color_text"> TOUCH </span></h1>
+		<h6 id="center_text1">Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis.<br>
+			Nullam at scelerisque tellus mattis volutpat rhoncus,</h6>
+		<!--FOOTER-->
+			<footer id="image_footer">
+			<form id="register_form">				
+				<input type="text" name="login" placeholder="First Name">
+				<input type="email" name="" placeholder="Email Address"><br>				
+				<textarea placeholder="Message"></textarea>
+				<br> 
+				<label class="container">I like your company
+				<input type="checkbox" checked="checked">
+				<span class="checkmark"></span>
+				</label>
+				<input id="colorbtn" type="submit" value="Send">
+				<p>69/A, Some Street Name <br>
+				Your City, code 01234 <br>
+				Country Name <br><br>
+				+880 123 456 78 98 <br>
+				+860 987 648 74 95 <br><br>
+				company@mail.com <br>
+				sales@mail.com</p>
+			</form>
+				 <p>Copyright &#9400 Company.All Rights Reserved 2016</p>
+			</footer>
+			</section>
+		</div>
+	</body>
+</html>
